@@ -10,3 +10,5 @@ setInterval(() => {
   btn && btn.click();
 }, 5000);
 ```
+
+![](snippet.png)
