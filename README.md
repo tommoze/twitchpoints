@@ -13,6 +13,8 @@ setInterval(() => {
 
 ![](snippet.png)
 
+#### What does code mean?
+
 ```Javascript
 // sets interval for searching +50 button
 setInterval(() => {
@@ -24,3 +26,10 @@ setInterval(() => {
   btn && btn.click();
   // searches for button each 5000 miliseconds
 }, 5000);
+```
+
+#### Will it load automatically?
+
+No, you have to run it again on page reload. If you wanna automate you need to find Chromium extension.
+
+
