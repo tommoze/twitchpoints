@@ -5,7 +5,7 @@ Open Developer Tools by ```right mouse click => Inspect```
 ```Javascript
 setInterval(() => {
   var btn = document.querySelector(
-    ".tw-button.tw-button--success.tw-interactive"
+    ".community-points-summary .claimable-bonus__icon"
   );
   btn && btn.click();
 }, 5000);
@@ -20,7 +20,7 @@ setInterval(() => {
 setInterval(() => {
   // queries DOM for button
   var btn = document.querySelector(
-    ".tw-button.tw-button--success.tw-interactive"
+    ".community-points-summary .claimable-bonus__icon"
   );
   // checks if button present, if so clicks
   btn && btn.click();
